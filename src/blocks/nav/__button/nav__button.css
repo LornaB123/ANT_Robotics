@@ -1,14 +1,16 @@
 .nav__button {
     width: 16px;
     height: 14px;
-    background-color: inherit;
-    background-image: var(--color);
+    background-color: var(--color);
+    mask-image: url('../../../images/ham-icon.svg');
+    -webkit-mask-image: url('../../../images/ham-icon.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     border: 0;
     cursor: pointer;
     outline: 0;
+    padding: 0;
 }
 
 @media screen and (min-width: 725px) {
