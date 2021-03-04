@@ -6,3 +6,10 @@
     top: 100%;
     transform: scale(1);
 }
+
+@media screen and (min-width: 650px) {
+    .nav__list_open {
+        padding: 0;
+        margin: 0;
+    }   
+}
