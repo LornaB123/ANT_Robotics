@@ -28,11 +28,22 @@
     z-index: 1;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 725px) {
     .nav {
         max-width: 708px;
         padding: 0 20px;
         flex-wrap: nowrap;
         justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        max-width: 1060px;
+        padding: 0 20px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 20px;
     }
 }
