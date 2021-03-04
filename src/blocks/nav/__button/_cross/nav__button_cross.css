@@ -1,6 +1,6 @@
 .nav__button_cross {
-    mask-image: url('../../../../images/cross-icon.svg');
-    -webkit-mask-image: url('../../../../images/cross-icon.svg');
+    mask-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxyZWN0IHdpZHRoPSIxNy43NjcyIiBoZWlnaHQ9IjEuNzc2NzIiIHJ4PSIwLjg4ODM2MSIgdHJhbnNmb3JtPSJtYXRyaXgoMC42OTc3NTcgMC43MTYzMzUgLTAuNjk3NzU3IDAuNzE2MzM1IDEuMjM5NzUgMCkiIGZpbGw9IndoaXRlIi8+DQo8cmVjdCB3aWR0aD0iMTcuNzY3MiIgaGVpZ2h0PSIxLjc3NjcyIiByeD0iMC44ODgzNjEiIHRyYW5zZm9ybT0ibWF0cml4KDAuNjk3NzU3IC0wLjcxNjMzNSAwLjY5Nzc1NyAwLjcxNjMzNSAwLjM2MzI4MSAxMi43MjczKSIgZmlsbD0id2hpdGUiLz4NCjwvc3ZnPg0K');
+    -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxyZWN0IHdpZHRoPSIxNy43NjcyIiBoZWlnaHQ9IjEuNzc2NzIiIHJ4PSIwLjg4ODM2MSIgdHJhbnNmb3JtPSJtYXRyaXgoMC42OTc3NTcgMC43MTYzMzUgLTAuNjk3NzU3IDAuNzE2MzM1IDEuMjM5NzUgMCkiIGZpbGw9IndoaXRlIi8+DQo8cmVjdCB3aWR0aD0iMTcuNzY3MiIgaGVpZ2h0PSIxLjc3NjcyIiByeD0iMC44ODgzNjEiIHRyYW5zZm9ybT0ibWF0cml4KDAuNjk3NzU3IC0wLjcxNjMzNSAwLjY5Nzc1NyAwLjcxNjMzNSAwLjM2MzI4MSAxMi43MjczKSIgZmlsbD0id2hpdGUiLz4NCjwvc3ZnPg0K');
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
 }

@@ -2,8 +2,8 @@
     width: 16px;
     height: 14px;
     background-color: var(--color);
-    mask-image: url('../../../images/ham-icon.svg');
-    -webkit-mask-image: url('../../../images/ham-icon.svg');
+    mask-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNiAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgICA8cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IndoaXRlIi8+DQogICAgPHJlY3QgeT0iNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSJ3aGl0ZSIvPg0KICAgIDxyZWN0IHk9IjEyIiB3aWR0aD0iMTYiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IndoaXRlIi8+DQo8L3N2Zz4NCg0K');
+    -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNiAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgICA8cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IndoaXRlIi8+DQogICAgPHJlY3QgeT0iNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSJ3aGl0ZSIvPg0KICAgIDxyZWN0IHk9IjEyIiB3aWR0aD0iMTYiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IndoaXRlIi8+DQo8L3N2Zz4NCg0K');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
