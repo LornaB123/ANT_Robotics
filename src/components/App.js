@@ -1,7 +1,11 @@
+import Nav from './Nav'
+
 function App() {
   return (
     <div className="page">
-      <h1>App Component</h1>
+      <Nav />
+      <div style={{height: '100vh', background: '#000'}}></div>
+      <div style={{height: '100vh', background: '#fff', marginTop: '10px'}}></div>
     </div>
   );
 }

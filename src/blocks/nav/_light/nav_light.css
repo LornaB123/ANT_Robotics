@@ -1,0 +1,6 @@
+.nav_light {
+    --color: url('../../../images/ham-icon-black.svg');
+    --color-close: url('../../../images/cross-icon-black.svg');
+    background-color: #efefef;
+    color: black;
+}
