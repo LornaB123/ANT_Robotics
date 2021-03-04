@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function Nav() {
+function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
     const [scroll, setScroll] = useState(false)
 
@@ -37,4 +37,4 @@ function Nav() {
     )
 }
 
-export default Nav
+export default NavBar
