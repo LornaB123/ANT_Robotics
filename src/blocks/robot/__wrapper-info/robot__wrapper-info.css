@@ -1,0 +1,39 @@
+.robot__wrapper-info {
+    text-align: center;
+}
+
+.robot__wrapper-info h2 {
+    margin: 0;
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+}
+
+.robot__wrapper-info p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 15px;
+    color: #525252;
+    font-weight: 600;
+}
+
+.robot__wrapper-info span {
+    font-weight: normal;
+}
+
+.robot__wrapper-info button {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 4px;
+    width: 99px;
+    height: 26px;
+    display: block;
+    margin: 32px auto 0;
+}
+
