@@ -1,3 +1,9 @@
+@import url('./__title/banner__title.css');
+@import url('./__title-img/banner__title-img.css');
+@import url('./__subtitle/banner__subtitile.css');
+@import url('./__video-button/banner__video-button.css');
+@import url('./__learn-button/banner__learn-button.css');
+
 .banner {
     background-color: #242424;
     min-width: 1260px;
