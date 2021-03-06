@@ -1,5 +1,6 @@
 .banner__title {
-    top: 182px;
+    padding-top: 250px;
+    margin: 0 auto 16px;
     font-weight: 700;
     font-size: 34px;
     line-height: 43px;

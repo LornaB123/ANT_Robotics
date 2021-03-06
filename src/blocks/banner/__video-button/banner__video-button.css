@@ -3,5 +3,7 @@
     width: 160px;
     height: 42px;
     color: #A0A0A0;
+    background-color: transparent;
     border-radius: 6px;
+    margin: 0 10px 145px 465px;
 }

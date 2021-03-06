@@ -1,0 +1,9 @@
+.banner__left-left-line {
+    position: absolute;
+    background-image: url('../../../images/left-left-line.svg');
+    background-repeat: no-repeat;
+    top: 344px;
+    left: 150px;
+    height: 45px;
+    width: 181px;
+}

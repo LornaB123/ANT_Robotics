@@ -1,5 +1,9 @@
 .banner__title-img {
     background-image: url('../../../images/bannerTitleImg.png');
-    width: 22.75px;
+    background-repeat: no-repeat;
     height: 27.85px;
+    width: 22.75px;
+    position: absolute;
+    top: 229px;
+    left: 502px;;
 }
