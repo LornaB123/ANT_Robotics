@@ -1,4 +1,7 @@
 .banner {
     background-color: #242424;
-    
+    min-width: 1260px;
+    min-height: 634px;
+    margin: 10px;
+    border-radius: 14px;
 }

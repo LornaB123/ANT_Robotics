@@ -9,20 +9,20 @@ function Banner() {
 
     return (
         <div className={"banner"}>
-            <img className="titleImg" alt="logo"></img>
-            
+            <img className="banner__title-img" alt="logo"></img>
+
             <h1 className="banner__title">ANT Robotics</h1>
            
             <p className='banner__subtitle'>We simplify employment, team-up, and upgrade of transport robots in warehouses and factories.</p>
            
             <button 
-                className={`banner__button ${isOpen}`}
+                className={`banner__video-button ${isOpen}`}
                 onClick={handleClick}>
                     Watch Video
             </button>
 
             <button 
-                className={`banner__button ${isOpen}`}
+                className={`banner__learn-button ${isOpen}`}
                 onClick={handleClick}>
                     Learn More
             </button>
