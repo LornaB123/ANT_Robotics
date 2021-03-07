@@ -1,19 +1,29 @@
+@import url('./__container/robot__container.css');
 @import url('./__container-image/robot__container-image.css');
 @import url('./__image/robot__image.css');
 @import url('./__wrapper-info/robot__wrapper-info.css');
 @import url('./__button/robot__button.css');
 @import url('./__button/_next/robot__button_next.css');
 @import url('./__button/_fade/robot__button_fade.css');
+@import url('./__container-description/robot__container-description.css');
 
 .robot {
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
     background-color: #f9f9f9;
     margin: 8px 0;
-    min-height: 40vh;
     border-radius: 14px;
-    border: 1px solid red;
     box-sizing: border-box;
     padding: 10px 12px 80px;
+}
+
+@media screen and (min-width: 600px) {
+    .robot {
+        margin: 10px 0;
+        padding: 110px 12px;
+    }
+}
+
+@media screen and (min-width: 725px) {
+    .robot {
+        padding: 110px 25px;
+    }
 }

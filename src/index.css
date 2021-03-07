@@ -3,6 +3,7 @@
 
 @import url('./blocks/page/page.css');
 @import url('./blocks/button/button.css');
+@import url('./blocks/arrow/arrow.css');
 @import url('./blocks/nav/nav.css');
 @import url('./blocks/nav/_light/nav_light.css');
 @import url('./blocks/robot/robot.css');

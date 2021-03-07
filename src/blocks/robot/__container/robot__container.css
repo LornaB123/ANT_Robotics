@@ -1,0 +1,21 @@
+.robot__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+@media screen and (min-width: 600px) {
+    .robot__container {
+        row-gap: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .robot__container {
+        flex-direction: row-reverse;
+        max-width: 1060px;
+        height: 324px;
+        margin: auto;
+        column-gap: 65px;
+    }
+}

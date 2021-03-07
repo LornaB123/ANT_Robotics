@@ -1,0 +1,11 @@
+.arrow {
+    width: 18px;
+    height: 12px;
+    mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='20' height='14' viewBox='0 0 20 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 7L1 7' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M7 1L0.999999 7L7 13' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='20' height='14' viewBox='0 0 20 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 7L1 7' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M7 1L0.999999 7L7 13' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+    background-color: black;
+}
