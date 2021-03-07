@@ -34,6 +34,7 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         margin-top: 20px;
+        box-shadow: none;
     }
 }
 

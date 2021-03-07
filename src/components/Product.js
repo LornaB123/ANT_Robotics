@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 
-function Robot(props) {
+function Product(props) {
     const { products } = props
     const [product,setProduct] = useState(null)
     const [order,setOrder] = useState('first')
@@ -25,7 +25,7 @@ function Robot(props) {
         <div className="robot">
             <div className="robot__container">
                 <div className="robot__container-image">
-                    <img className="robot__image" src={product?.link} alt="product image"/>
+                    <img className="robot__image" src={product && product?.link} alt="product image"/>
                     <div className="robot__wrapper-info">
                         <h2>{product?.name}</h2>
                         <p><span>Max payload: </span>{product?.info.payload}</p>
@@ -58,4 +58,4 @@ function Robot(props) {
     )
 }
 
-export default Robot
+export default Product
