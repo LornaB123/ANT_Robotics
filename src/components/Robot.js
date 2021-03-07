@@ -1,22 +1,50 @@
-import robot from '../images/OTTO100 1.png'
+import { useState, useEffect } from 'react'
 
-function Robot() {
+
+function Robot(props) {
+    const { products } = props
+    const [product,setProduct] = useState(null)
+    const [order,setOrder] = useState('first')
+
+    useEffect(() => {
+        setProduct(products[0])
+    },[products])
+
+    function handleNext() {
+        const index = products.indexOf(product)+1;
+        index === products.length-1 ? setOrder('last') : setOrder('mid')
+        setProduct(products[index])
+    }
+    function handlePrev() {
+        const index = products.indexOf(product)-1;
+        index === 0 ? setOrder('first') : setOrder('mid')
+        setProduct(products[index])
+    }
+
     return (
         <div className="robot">
             <div className="robot__container">
                 <div className="robot__container-image">
-                    <img className="robot__image" src={robot} alt="robot image"/>
+                    <img className="robot__image" src={product?.link} alt="product image"/>
                     <div className="robot__wrapper-info">
-                        <h2>OTTO 100 (pending)</h2>
-                        <p><span>Max payload: </span>220 lbs (100 kg)</p>
-                        <p><span>Size: </span>740 x 550 x 310 mm</p>
-                        <p><span>Max speed: </span>4.3 mph</p>
-                        <p><span>Running time: </span>4 hrs or 9 mi</p>
-                        <p><span>Charging time: </span>1.2 hrs (0-80%: 0.75 hrs)</p>
+                        <h2>{product?.name}</h2>
+                        <p><span>Max payload: </span>{product?.info.payload}</p>
+                        <p><span>Size: </span>{product?.info.size}</p>
+                        <p><span>Max speed: </span>{product?.info.speed}</p>
+                        <p><span>Running time: </span>{product?.info.runningTime}</p>
+                        <p><span>Charging time: </span>{product?.info.chargingTime}</p>
                         <button className="button">Get more info</button>
                     </div>
-                    <button className="button arrow robot__button robot__button_next robot__button_fade" />
-                    <button className="button arrow robot__button" />
+                    <button 
+                        className="button arrow robot__button robot__button_next"
+                        onClick={handleNext}
+                        disabled={order === 'last'}
+                        />
+                    <button 
+                        className="button arrow robot__button"
+                        onClick={handlePrev}
+                        disabled={order === 'first'}
+                        />
                 </div>
                 <div className="robot__container-description">
                     <h2>Wide choice of transport robots</h2>

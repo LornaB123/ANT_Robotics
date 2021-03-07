@@ -9,3 +9,7 @@
     -webkit-mask-size: 100% 100%;
     background-color: black;
 }
+
+.arrow:disabled {
+    background-color: #bebebe;
+}
