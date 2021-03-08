@@ -11,18 +11,12 @@
     margin: 8px 0;
     border-radius: 14px;
     box-sizing: border-box;
-    padding: 10px 12px 80px;
+    padding: 10px 0 80px;
 }
 
 @media screen and (min-width: 600px) {
     .robot {
         margin: 10px 0;
-        padding: 110px 12px;
-    }
-}
-
-@media screen and (min-width: 725px) {
-    .robot {
-        padding: 110px 25px;
+        padding: 110px 0;
     }
 }

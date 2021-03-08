@@ -1,7 +1,7 @@
 {
    "products": [
         {
-            "link": "../public/images/OTTO100.png",
+            "link": "images/OTTO100.png",
             "name": "OTTO 100 (pending)",
             "info": {
                 "payload": "220 lbs (100 kg)",

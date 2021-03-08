@@ -19,3 +19,9 @@
         padding: 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .robot__container-image {
+        margin: 0;
+    }
+}

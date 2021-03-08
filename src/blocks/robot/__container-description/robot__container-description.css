@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 1024px) {
     .robot__container-description {
-        max-width: 100%;
+        width: 100%;
         margin: 0;
     }
     .robot__container-description h2 {

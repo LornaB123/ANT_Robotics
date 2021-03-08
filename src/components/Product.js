@@ -25,7 +25,7 @@ function Product(props) {
         <div className="robot">
             <div className="robot__container">
                 <div className="robot__container-image">
-                    <img className="robot__image" src={product && product?.link} alt="product image"/>
+                    <img className="robot__image" src={product?.link} alt="product image"/>
                     <div className="robot__wrapper-info">
                         <h2>{product?.name}</h2>
                         <p><span>Max payload: </span>{product?.info.payload}</p>
