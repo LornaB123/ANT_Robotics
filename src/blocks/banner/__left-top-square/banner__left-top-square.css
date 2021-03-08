@@ -1,0 +1,9 @@
+.banner__left-top-square {
+    background-color: #faa805;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 189px;
+    left: 315px;
+    border: none;
+}

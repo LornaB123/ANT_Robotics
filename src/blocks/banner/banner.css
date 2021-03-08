@@ -1,17 +1,33 @@
 @import url('./__title/banner__title.css');
-@import url('./__title-img/banner__title-img.css');
+/* @import url('./__title-img/banner__title-img.css'); */
+@import url('./__orange-title-block/banner__orange-title-block.css');
+@import url('./__title-image-bottom-block/banner__title-image-bottom-block.css');
+@import url('./__title-image-top-square/banner__title-image-top-square.css');
 @import url('./__subtitle/banner__subtitile.css');
 @import url('./__video-button/banner__video-button.css');
 @import url('./__learn-button/banner__learn-button.css');
 @import url('./__left-left-line/banner__left-left-line.css');
+@import url('./__left-left-square/banner__left-left-square.css');
 @import url('./__left-right-line/banner__left-right-line.css');
+@import url('./__left-right-square/banner__left-right-square.css');
 @import url('./__left-top-line/banner__left-top-line.css');
+@import url('./__left-top-square/banner__left-top-square.css');
+@import url('./__right-top-line/banner__right-top-line.css');
+@import url('./__right-top-square/banner__right-top-square.css');
+@import url('./__right-bottom-line/banner__right-bottom-line.css');
+@import url('./__right-bottom-square/banner__right-bottom-square.css');
+@import url('./__right-left-line/banner__right-left-line.css');
+@import url('./__right-left-square/banner__right-left-square.css');
+@import url('./__button-container/banner__button-container.css');
+@import url('./__column-2/banner__column-2.css');
 
 .banner {
     position: relative;
-    background-color: #242424;
-    width: 1260px;
-    height: 634px;
+    max-width: 1260px;
+    max-height: 634px;
     margin: 10px auto;
+    background-color: #242424;
     border-radius: 14px;
-}
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+  }

@@ -1,0 +1,20 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.banner__left-left-square {
+    background-color: #FAA805;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 331px;
+    left: 208px;
+    border: none;
+    animation: rotation 20s linear 0s infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}

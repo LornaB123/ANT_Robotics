@@ -5,5 +5,10 @@
     color: #A0A0A0;
     background-color: transparent;
     border-radius: 6px;
-    margin: 0 10px 145px 465px;
+    margin-right: 10px;
+}
+
+.banner__video-button:hover {
+    background-color: rgba(250, 168, 5, .5);
+    color: white;
 }

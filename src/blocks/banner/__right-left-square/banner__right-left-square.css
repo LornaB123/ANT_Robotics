@@ -1,0 +1,9 @@
+.banner__right-left-square {
+    position: absolute;
+    top: 300px;
+    right: 325px;
+    background-color: #faa805;
+    height: 40px;
+    width: 40px;
+    border: none;
+}

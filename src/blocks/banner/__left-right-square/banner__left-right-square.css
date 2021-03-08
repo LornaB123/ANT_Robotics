@@ -1,0 +1,19 @@
+/* @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+.banner__left-right-square {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #faa805;
+    top: 423px;
+    left: 332px;
+    border: none;
+    /* animation: rotation 5s linear 0s infinite; */
+}
