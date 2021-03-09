@@ -1,8 +1,10 @@
 .banner__left-top-line {
     background-image: url('../../../images/left-top-line.png');
-    position: absolute;
+    /* position: absolute; */
     width: 45px;
     height: 180px;
-    top: 140px;
-    left: 286px; 
+    /* top: 140px;
+    left: 286px; */
+    margin-bottom: 69px;
+    margin-left: -45px;
 }

@@ -29,5 +29,18 @@
     background-color: #242424;
     border-radius: 14px;
     display: grid;
-    grid-template-columns: repeat(3, 420px);
+    grid-template-columns: repeat(3, minmax(304px, 1fr))
   }
+
+  @media screen and (min-width: 1024px) {
+    .banner {
+      min-width: 768px;
+    }
+  }
+
+  @media screen and (min-width: 725px) {
+    .banner {
+      min-width: 304px;
+    }
+  }
+
