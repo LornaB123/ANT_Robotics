@@ -8,7 +8,11 @@
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
-    min-height: 100vh;
-    background-color: #242424;
+    padding: 10px 8px;
+}
+
+@media screen and (min-width: 725px) {
+    .page {
+        padding: 10px;
+    }
 }

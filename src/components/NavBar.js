@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react'
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
-    const [scroll, setScroll] = useState(false)
+    const [lightNav, setLightNav] = useState(false)
 
     function handleClick() {
         setIsOpen(!isOpen)
     }
 
     function handleScroll() {
-        window.scrollY >= 546 ? setScroll(true) : setScroll(false)
+        window.scrollY >= 546 ? setLightNav('nav_light') : setLightNav('')
     }
 
     useEffect(() => {
@@ -18,7 +18,7 @@ function NavBar() {
     })
 
     return (
-        <nav className={`nav ${scroll && 'nav_light'}`}>
+        <nav className={`nav ${lightNav}`}>
             <p className="nav__logo">ANT Robotics</p>
             <p className='nav__link'>in</p>
             <button 
