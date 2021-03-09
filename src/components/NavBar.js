@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
-    const [lightNav, setLightNav] = useState(false)
+    const [lightNav, setLightNav] = useState('')
 
     function handleClick() {
         setIsOpen(!isOpen)

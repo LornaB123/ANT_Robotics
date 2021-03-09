@@ -34,6 +34,7 @@
 @media screen and (min-width: 725px) {
     .nav__list {
         flex-direction: row;
+        box-shadow: none;
         column-gap: 14px;
         width: auto;
         max-height: 100%;
