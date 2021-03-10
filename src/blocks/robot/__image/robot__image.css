@@ -11,5 +11,6 @@
     .robot__image {
         justify-self: end;
         margin: 0;
+        margin-top: 82px;
     }
 }

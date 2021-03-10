@@ -2,19 +2,22 @@
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    width: 92.5%;
+    width: 87.5vw;
     margin: auto;
 }
 
 @media screen and (min-width: 600px) {
     .robot__container {
         row-gap: 80px;
+        width: calc(575/768*100vw);
+        min-width: 525px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .robot__container {
         flex-direction: row-reverse;
+        width: calc(1060/1280*100vw);
         max-width: 1060px;
         height: 324px;
         margin: auto;

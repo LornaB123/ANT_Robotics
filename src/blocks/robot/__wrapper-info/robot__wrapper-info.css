@@ -17,6 +17,7 @@
     line-height: 15px;
     color: #525252;
     font-weight: 700;
+    margin-bottom: 1px;
 }
 
 .robot__wrapper-info span {
@@ -34,12 +35,13 @@
     width: 99px;
     height: 26px;
     display: block;
-    margin: 32px auto 0;
+    margin: 32px auto 36px;
 }
 
 @media screen and (min-width: 600px) {
     .robot__wrapper-info {
         text-align: left;
+        margin-top: 62px;
     }
     .robot__wrapper-info h2 {
         margin-bottom: 22px;
