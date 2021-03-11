@@ -16,9 +16,12 @@
     display: grid;
     grid-template-columns: 1fr 420px 1fr;
     color: white;
-  }
+}
 
-  @media screen and (min-width: 1024px) {
+@media screen and (max-width: 700px) {
+}
+
+  /* @media screen and (min-width: 1024px) {
     .banner {
       min-width: 768px;
     }
@@ -28,5 +31,5 @@
     .banner {
       min-width: 304px;
     }
-  }
+  } */
 

@@ -10,7 +10,7 @@
   background: white;
   top: 310px;
   right: 70px;
-  animation: glow 2s linear infinite alternate;
+  animation: glow .5s linear infinite alternate;
 }
 
 .banner__column-1 :first-child::before {
@@ -141,4 +141,10 @@
       width: 16px;
       height: 16px;
     }
+}
+
+@media screen and (max-width: 700px) {
+  .banner__column-1 {
+     display: none;
+  }
 }

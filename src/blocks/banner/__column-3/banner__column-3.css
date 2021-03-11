@@ -11,7 +11,7 @@
     background: white;
     top: 230px;
     left: 73px;
-    animation: glow 2s linear infinite alternate;
+    animation: glow 1s linear infinite alternate;
 }
 
 .banner__column-3 :first-child::before {
