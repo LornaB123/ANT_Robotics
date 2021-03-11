@@ -10,7 +10,7 @@
   background: white;
   top: 310px;
   right: 70px;
-  animation: glow 2s linear infinite alternate;
+  /* animation: glow 2s linear infinite alternate; */
 }
 
 .banner__column-1 :first-child::before {
@@ -57,7 +57,7 @@
   height: 26px;
   background-color: #FAA805;
   left: -10px;
-  top: -11px;
+  top: -25%;
   animation: anim-two 2s linear infinite alternate-reverse;
 }
 
@@ -67,7 +67,7 @@
   }
   75% {
     transform: rotateY(60deg) rotateZ(720deg);
-    top: -11px;
+    top: -25%;
     left: 80%;
   }
   100% {
@@ -96,7 +96,7 @@
   width: 32px;
   height: 32px;
   background-color: #FAA805;
-  left: 27px;
+  left: 60%;
   top: 10%;
   transform: rotateX(45deg);
   animation: anim-three 2s linear infinite alternate;
@@ -109,8 +109,34 @@
   }
 }
 
-/* @media screen and (min-width: 725px) {
-    .banner__column-1 {
-      display: none;
+@media screen and (max-width: 1000px) {
+    .banner__column-1 :first-child {
+      height: 92px;
+      top: 313px;
+      right: 23px;
     }
-} */
+    .banner__column-1 :first-child::before {
+      width: 20px;
+      height: 20px;
+    }
+    .banner__column-1 :nth-child(2) {
+      width: 90.5px;
+      height: 22.5px;
+      top: 330px;
+      right: 33.5px;
+    }
+    .banner__column-1 :nth-child(2)::before {
+      width: 13px;
+      height: 13px;
+    }
+    .banner__column-1 :nth-child(3) {
+      width: 22.5px;
+      height: 90px;
+      top: 228px;
+      right: 33.5px;
+    }
+    .banner__column-1 :nth-child(3)::before {
+      width: 16px;
+      height: 16px;
+    }
+}
