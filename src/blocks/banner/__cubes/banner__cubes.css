@@ -54,11 +54,18 @@
     .banner__cubes div {
         width: 8.48px;
         height: 8.48px;
-        top: 3px;
+        top: 1px;
         left: -11px;
     }
     .banner__cubes div::after, .banner__cubes div::before {
         width: 5.3px;
         height: 5.3px;
+    }
+    .banner__cubes div::after {
+        bottom: 100%;
+        margin-left: 3.97px;
+    }
+    .banner__cubes div::before {
+        left: 65%;
     }
 }
