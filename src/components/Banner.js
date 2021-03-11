@@ -12,8 +12,7 @@ function Banner() {
               <div />
             </div>
             <p className="banner__subtitle">
-                We simplify employment, team-up, and upgrade of transport robots in
-                warehouses and factories.
+                We simplify employment, team-up, and upgrade of transport robots in warehouses and factories.
             </p>
             <div className="banner__button-container">
               <button className="banner__video-button"> Watch Video </button>

@@ -9,7 +9,7 @@
 
 .banner {
     position: relative;
-    min-height: 634px;
+    height: 634px;
     margin: 0 auto 10px;
     background-color: #242424;
     border-radius: 14px;
@@ -19,17 +19,9 @@
 }
 
 @media screen and (max-width: 700px) {
+    .banner {
+      grid-template-columns: 1fr;
+      height: 493px;
+      margin-bottom: 8px;
+    }
 }
-
-  /* @media screen and (min-width: 1024px) {
-    .banner {
-      min-width: 768px;
-    }
-  }
-
-  @media screen and (min-width: 725px) {
-    .banner {
-      min-width: 304px;
-    }
-  } */
-
