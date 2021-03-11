@@ -4,7 +4,7 @@ import Banner from './Banner'
 function App() {
   return (
     <div className="page">
-      {/* <NavBar /> */}
+      <NavBar />
       <Banner />
     </div>
   );

@@ -20,7 +20,11 @@ function Banner() {
               <button className="banner__learn-button"> Learn More </button>
             </div>
         </div>
-        <div>lorna</div>
+        <div className="banner__column-3">
+            <div />
+            <div />
+            <div />
+        </div>
       </div>
     );
 }

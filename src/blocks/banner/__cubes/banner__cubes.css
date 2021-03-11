@@ -41,11 +41,11 @@
 
 @keyframes anim {
     50% {
-        transform: rotate(180deg) scale(2);
+        transform: rotate(180deg) scale(3);
         left: 220%;
     }
     100% {
-        transform: rotate(360deg) scale(1) skew(0);
+        transform: rotate(360deg) scale(1);
         border-radius: 0;
     }
 }
