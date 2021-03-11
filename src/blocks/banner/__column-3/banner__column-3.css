@@ -57,7 +57,7 @@
     width: 20px;
     height: 20px;
     background-color: #FAA805;
-    left: -7px;
+    left: -5%;
     top: 0;
     transform: rotateX(45deg);
     animation: anim-2 2s linear infinite alternate;
@@ -67,7 +67,7 @@
     35% {
         transform: rotateX(45deg) rotateZ(360deg);
         top: 65%;
-        left: -7px;
+        left: -5%;
     }
     55% {
         transform: rotateX(45deg) rotateY(-45deg) rotateZ(520deg);
@@ -118,5 +118,33 @@
     }
     100% {
         transform: rotateY(720deg);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner__column-3 :first-child {
+        height: 114.68px;
+        top: 253.93px;
+        left: 2.46px;
+    }
+    .banner__column-3 :first-child::before {
+        width: 24.93px;
+        height: 24.93px;
+    }
+    .banner__column-3 :nth-child(2) {
+        width: 93.49px;
+        height: 54.22px;
+        top: 229px;
+        left: 30.51px;
+    }
+    .banner__column-3 :nth-child(2)::before {
+        width: 12.46px;
+        height: 12.46px;
+    }
+    .banner__column-3 :nth-child(3) {
+        width: 93.49px;
+        height: 112.18px;
+        top: 293.82px;
+        left: 30.51px;
     }
 }

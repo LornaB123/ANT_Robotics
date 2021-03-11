@@ -56,7 +56,7 @@
   width: 26px;
   height: 26px;
   background-color: #FAA805;
-  left: -10px;
+  left: 0;
   top: -25%;
   animation: anim-two 2s linear infinite alternate-reverse;
 }
@@ -96,7 +96,7 @@
   width: 32px;
   height: 32px;
   background-color: #FAA805;
-  left: 60%;
+  left: 55%;
   top: 10%;
   transform: rotateX(45deg);
   animation: anim-three 2s linear infinite alternate;
@@ -120,19 +120,21 @@
       height: 20px;
     }
     .banner__column-1 :nth-child(2) {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='93' height='25' viewBox='0 0 93 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 2L75.5 2C83.7843 2 90.5 8.71573 90.5 17V24.5' stroke='white' stroke-width='4'/%3E%3C/svg%3E");
       width: 90.5px;
       height: 22.5px;
       top: 330px;
-      right: 33.5px;
+      right: 30.5px;
     }
     .banner__column-1 :nth-child(2)::before {
       width: 13px;
       height: 13px;
     }
     .banner__column-1 :nth-child(3) {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='25' height='92' viewBox='0 0 25 92' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.5 0L22.5 75C22.5 83.2842 15.7843 90 7.49999 90H0' stroke='white' stroke-width='4'/%3E%3C/svg%3E");
       width: 22.5px;
       height: 90px;
-      top: 228px;
+      top: 233px;
       right: 33.5px;
     }
     .banner__column-1 :nth-child(3)::before {
