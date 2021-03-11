@@ -6,9 +6,13 @@
     background-color: transparent;
     border-radius: 6px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    outline: none;
+    padding: 0;
 }
 
-.banner__video-button:hover {
+/* .banner__video-button:hover {
     background-color: rgba(250, 168, 5, .5);
     color: white;
-}
+} */

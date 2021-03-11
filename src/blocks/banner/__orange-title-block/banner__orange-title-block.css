@@ -36,9 +36,9 @@
     }
 }  */
 @keyframes rotation {
-    from {
+    /* from {
       transform: rotate(0deg);
-    }
+    } */
     to {
       transform: rotate(360deg);
     }
@@ -48,10 +48,34 @@
     background-color: #faa805;
     height: 6.79px;
     width: 6.79px;
-    top: 239.52px;
-    left: 517.96px;
-    z-index: 1;
-    animation: rotation 5s linear 0s infinite;
+    bottom: 100%;
+    margin-bottom: 3.68px;
+    /* animation: rotation 5s linear 0s infinite; */
     /* animation: move 15s linear 0s 1;
     animation-fill-mode: forwards; */
+}
+
+.banner__orange-title-block::before {
+    content: '';
+    display: block;
+    width: 10.87px;
+    height: 10.87px;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    right: 100%;
+    margin-right: 5px;
+    animation: rotation 5s linear 0s infinite;
+}
+
+.banner__orange-title-block::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6.79px;
+    height: 6.79px;
+    background-color: white;
+    right: 100%;
+    bottom: 100%;
+    margin-bottom: 3.73px;
 }

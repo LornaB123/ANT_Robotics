@@ -5,10 +5,14 @@
     color: white;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
+    transition: all .3s;
+    outline: none;
+    padding: 0;
 }
 
-.banner__learn-button:hover {
+/* .banner__learn-button:hover {
     background-color: transparent;
     color: #A0A0A0;
     border: 1px solid #717171;
-}
+} */

@@ -1,0 +1,51 @@
+.banner__cubes {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.banner__cubes div {
+    position: absolute;
+    top: -4px;
+    left: -16px;
+    width: 10.87px;
+    height: 10.87px;
+    background-color: white;
+}
+
+.banner__cubes div::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    left: 8.83px;
+    width: 6.79px;
+    height: 6.79px;
+    background: #fff;
+    margin-bottom: 9.17px;
+}
+
+.banner__cubes div::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 10.53px;
+    left: 100%;
+    width: 6.79px;
+    height: 6.79px;
+    background: #FBBC05;
+    margin-left: 5px;
+    transform-origin: center;
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim {
+    50% {
+        transform: rotate(180deg) scale(2);
+        left: 220%;
+    }
+    100% {
+        transform: rotate(360deg) scale(1) skew(0);
+        border-radius: 0;
+    }
+}
