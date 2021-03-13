@@ -1,0 +1,48 @@
+{
+   "products": [
+        {
+            "link": "images/OTTO100.png",
+            "name": "OTTO 100 (pending)",
+            "info": {
+                "payload": "220 lbs (100 kg)",
+                "size": "740 x 550 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "4 hrs or 9 mi",
+                "chargingTime": "1.2 hrs (0-80%: 0.75 hrs)"
+            }
+        },
+        {
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0oG_cqbkBOBg2KIc7nyfB6UrBKPl__V_7g&usqp=CAU",
+            "name": "OTKO 100",
+            "info": {
+                "payload": "120 lbs (100 kg)",
+                "size": "740 x 550 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "3 hrs or 9 mi",
+                "chargingTime": "2.2 hrs (0-80%: 0.75 hrs)"
+            }
+        },
+        {
+            "link": "https://image.freepik.com/free-vector/cute-cartoon-grey-robot-with-big-eyes-white-background_214720-33.jpg",
+            "name": "SUZUKI 100 (pending)",
+            "info": {
+                "payload": "220 lbs (130 kg)",
+                "size": "234 x 550 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "4 hrs or 10 mi",
+                "chargingTime": "3.2 hrs (0-80%: 0.75 hrs)"
+            }
+        },
+        {
+            "link": "https://images-na.ssl-images-amazon.com/images/I/513SMv7R-0L._SL1200_.jpg",
+            "name": "SAM 322 (pending)",
+            "info": {
+                "payload": "220 lbs (100 kg)",
+                "size": "740 x 350 x 310 mm",
+                "speed": "4.3 mph",
+                "runningTime": "8 hrs or 9 mi",
+                "chargingTime": "4.2 hrs (0-80%: 0.75 hrs)"
+            }
+        }
+    ]
+}
