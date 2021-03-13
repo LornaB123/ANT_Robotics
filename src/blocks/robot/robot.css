@@ -21,3 +21,9 @@
         min-height: 986px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .robot {
+        min-height: auto;
+    }
+}
