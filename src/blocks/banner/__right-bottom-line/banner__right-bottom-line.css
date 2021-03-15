@@ -1,6 +1,7 @@
 .banner__right-bottom-line {
     background-image: url('../../../images/right-bottom-line.png');
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     position: absolute;
     width: 150px;
     height: 180px;

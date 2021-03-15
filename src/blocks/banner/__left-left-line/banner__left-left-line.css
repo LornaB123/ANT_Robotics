@@ -1,11 +1,10 @@
 .banner__left-left-line {
-    /* position: absolute; */
+    position: absolute;
     background-image: url('../../../images/left-left-line.svg');
     background-repeat: no-repeat;
-    /* top: 344px;
-    left: 150px; */
+    background-size: 100% 100%;
+    top: 344px;
+    left: 150px;
     height: 45px;
     width: 181px;
-    margin-top: 344px;
-    margin-left: 150px;
 }
