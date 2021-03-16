@@ -36,12 +36,12 @@ function Product(props) {
                         <button className="button">Get more info</button>
                     </div>
                     <button 
-                        className="button arrow robot__button robot__button_next"
+                        className="arrow robot__button robot__button_next"
                         onClick={handleNext}
                         disabled={order === 'last'}
                         />
                     <button 
-                        className="button arrow robot__button"
+                        className="arrow robot__button"
                         onClick={handlePrev}
                         disabled={order === 'first'}
                         />
