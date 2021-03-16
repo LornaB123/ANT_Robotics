@@ -14,3 +14,11 @@
     background-color: #F9F9F9;
     border-radius: 14px;
 }
+
+@media screen and (min-width: 1000px){
+    .benefits {
+        margin: 0 auto 10px;
+        background-color: #F9F9F9;
+        border-radius: 14px;
+    }
+}

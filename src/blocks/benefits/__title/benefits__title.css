@@ -1,7 +1,18 @@
 .benefits__title {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 43px;
-    margin: 0 0 70px;
-    padding-top: 110px;
+    margin: 0 0 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media screen and(min-width: 1000px){
+    .benefits__title {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 43px;
+        margin: 0 0 70px;
+        padding-top: 110px;
+    }
 }
