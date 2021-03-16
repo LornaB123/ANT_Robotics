@@ -70,5 +70,56 @@
             "name": "SUZU F20 Robot at work",
             "link": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHJvYm90JTIwbWFjaGluZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=600&q=60"
         }
+    ],
+    "customerBenefits": [
+        {
+            "link": "images/customer1.png",
+            "title": "Labor-intensive dolly movements",
+            "subtitle": [
+                {
+                    "highlight": "Challenges: ",
+                    "regular": "It is more and more"
+                },
+                {
+                    "highlight": " difficult to hire workers, ",
+                    "regular": "because they prefer to work in delivery services for the same money."
+                }
+            ]
+        },
+        {
+            "link": "images/customer2.png",
+            "title": "Forklifts, tuggers managed by man",
+            "subtitle": [
+                {
+                    "highlight": "Challenges: ",
+                    "regular": "It is more and more"
+                },
+                {
+                    "highlight": " difficult to hire forklift drivers ",
+                    "regular": "because they prefer to work in delivery for the same money."
+                }
+            ]
+            
+        },
+        {
+            "link": "images/customer3.png",
+            "title": "Follow-the-line robots",
+            "subtitle": [
+                {
+                    "highlight": "Challenges: ",
+                    "regular": "It is time-consuming and expensive to replace old robots by state-of-the art, but produced by another vendor."
+                }
+            ]
+        },
+        {
+            "link": "images/customer4.png",
+            "title": "Autonomous mobile robots",
+            "subtitle": [
+                {
+                    "highlight": "Challenges: ",
+                    "regular": "Limited upgrade options within the same vendor robot line only and too expensive to use another vendor robots."
+                }
+            ]
+        }
     ]
 }
