@@ -1,6 +1,6 @@
 @import url('./__title/benefits__title.css');
 @import url('./__image/benefits__image.css');
-@import url('./__column-title/benefits__title.css');
+@import url('./__column-title/benefits__column-title.css');
 @import url('/__column-subtitle/benefits__column-subtitle.css');
 
 .benefits {
