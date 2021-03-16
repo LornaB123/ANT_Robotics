@@ -1,6 +1,13 @@
+@import url('./benefits__title/benefits__title.css');
+@import url('./benefits__image/benefits__image.css');
+@import url('./benefits__column-title/benefits__title.css');
+@import url('/benefits__column-subtitle/benefits__column-subtitle.css');
+
 .benefits {
     height: 500px;
     margin: 0 auto 10px;
     background-color: #F9F9F9;
     border-radius: 14px;
+    display: flex;
+    flex-direction: column;
 }
