@@ -5,6 +5,7 @@ function Product(props) {
     const { products } = props
     const [product,setProduct] = useState(null)
     const [order,setOrder] = useState('first')
+    const [touchStart,setTouchStart] = useState(null)
 
     useEffect(() => {
         setProduct(products[0])
@@ -21,10 +22,22 @@ function Product(props) {
         setProduct(products[index])
     }
 
+    function handleTouchStart(e) {
+        setTouchStart(e.touches[0].clientX)
+    }
+    function handleTouchEnd(e) {
+        if(e.changedTouches[0].clientX - touchStart > 149 && order !== 'last')  handleNext();
+        if(e.changedTouches[0].clientX - touchStart < -149 && order !== 'first')  handlePrev();
+    }
+
     return (
         <div className="robot">
             <div className="robot__container">
-                <div className="robot__container-image">
+                <div 
+                    className="robot__container-image" 
+                    onTouchStart={handleTouchStart}
+                    onTouchEnd={handleTouchEnd}
+                    >
                     <img className="robot__image" src={product?.link} alt="product image"/>
                     <div className="robot__wrapper-info">
                         <h2>{product?.name}</h2>

@@ -5,6 +5,7 @@ function Gallery(props) {
     const { pictures } = props
     const [photo, setPhoto] = useState(null)
     const [order,setOrder] = useState('first')
+    const [touchStart,setTouchStart] = useState(null)
 
     useEffect(() => {
         setPhoto(pictures[0])
@@ -15,18 +16,30 @@ function Gallery(props) {
         !index ? setOrder('first') : setOrder('mid');
         setPhoto(pictures[index])
     }
-
     function handleNext() {
         const index = pictures.indexOf(photo)+1;
         index === pictures.length-1 ? setOrder('last') : setOrder('mid')
         setPhoto(pictures[index])
     }
 
+    function handleTouchStart(e) {
+        setTouchStart(e.touches[0].clientX)
+    }
+    function handleTouchEnd(e) {
+        if(e.changedTouches[0].clientX - touchStart > 149 && order !== 'last')  handleNext();
+        if(e.changedTouches[0].clientX - touchStart < -149 && order !== 'first')  handlePrev();
+    }
+
     return (
         <div className="gallery">
             <h2>Gallery</h2>
             <div>
-                <img src={photo?.link} alt={photo?.name}/>
+                <img 
+                    src={photo?.link} 
+                    alt={photo?.name}
+                    onTouchStart={handleTouchStart}
+                    onTouchEnd={handleTouchEnd}
+                    />
                 <button 
                     className="arrow arrow_bg-white"
                     onClick={handlePrev}
