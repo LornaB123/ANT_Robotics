@@ -10,8 +10,10 @@
 
 
 @import url('./blocks/banner/banner.css');
+@import url('./blocks/benefits/benefits.css');
 @import url('./blocks/robot/robot.css');
 @import url('./blocks/gallery/gallery.css');
 @import url('./blocks/customer/customer.css');
+@import url('./blocks/callout/callout.css');
+@import url('./blocks/popup/popup.css');
 
-@import url('./blocks/benefits/benefits.css');
