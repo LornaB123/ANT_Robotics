@@ -1,19 +1,25 @@
 .benefits__columns {
-    min-width: 304px;
-    margin: 0 auto 40px;
+    margin: 40px auto 0;
+    display: grid;
+    row-gap: 40px;
+    max-width: 280px;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 650px) {
     .benefits__columns{
-        display: grid;
+        max-width: 548px;
         grid-template-columns: repeat(2, 235px);
-        grid-column-gap: 78px;
+        justify-content: space-between;
+        row-gap: 104px;
+        margin-top: 82px;
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px) {
     .benefits__columns{
         grid-template-columns: repeat(4, 235px);
-        grid-column-gap: 40px;
+        max-width: 1060px;
+        margin-top: 70px;
+        row-gap: 90px;
     }
 }

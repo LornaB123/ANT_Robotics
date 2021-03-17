@@ -7,10 +7,10 @@ import data from '../utils/data.json'
 function App() {
   return (
     <div className="page">
-      <NavBar />
+      {/* <NavBar />
       <Banner />
-      <Product products={data.products} />
-      <Benefits />
+      <Product products={data.products} /> */}
+      <Benefits benefits={data.beneifts} />
     </div>
   );
 }
