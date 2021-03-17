@@ -3,6 +3,10 @@ import customer from '../images/customer1.png'
 function CustomerBenefit(props) {
     const { customerBenefits } = props
 
+    function createMarkup(markup) {
+        return {__html: markup};
+      }
+
     return (
         <div className="customer">
             <h2>Customers benefit despite of the automation level</h2>
@@ -12,15 +16,7 @@ function CustomerBenefit(props) {
                         <div className="customer__card" key={i}>
                             <img src={ benefit.link } alt=""/>
                             <p className="customer__title">{ benefit.title }</p>
-                            <p className="customer__subtitle">
-                                {
-                                    benefit.subtitle.map(sub => {
-                                       return Object.keys(sub).map((key,k) => {
-                                            return key === "highlight" ? sub[key] : <span key={''+i+k}>{sub[key]}</span>
-                                        })
-                                    })
-                                }
-                            </p>
+                            <p className="customer__subtitle" dangerouslySetInnerHTML={createMarkup(benefit.subtitle)} />
                         </div>
                     ))
                 }
