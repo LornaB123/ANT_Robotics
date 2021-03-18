@@ -6,17 +6,20 @@ function Product(props) {
     const [product,setProduct] = useState(null)
     const [order,setOrder] = useState('first')
     const [touchStart,setTouchStart] = useState(null)
+    const [loading,setLoading] = useState(true)
 
     useEffect(() => {
         setProduct(products[0])
     },[products])
 
     function handleNext() {
+        setLoading(true)
         const index = products.indexOf(product)+1;
         index === products.length-1 ? setOrder('last') : setOrder('mid')
         setProduct(products[index])
     }
     function handlePrev() {
+        setLoading(true)
         const index = products.indexOf(product)-1;
         index === 0 ? setOrder('first') : setOrder('mid')
         setProduct(products[index])
@@ -26,8 +29,8 @@ function Product(props) {
         setTouchStart(e.touches[0].clientX)
     }
     function handleTouchEnd(e) {
-        if(e.changedTouches[0].clientX - touchStart > 149 && order !== 'last')  handleNext();
-        if(e.changedTouches[0].clientX - touchStart < -149 && order !== 'first')  handlePrev();
+        if(e.changedTouches[0].clientX - touchStart > 110 && order !== 'last')  handleNext();
+        if(e.changedTouches[0].clientX - touchStart < -110 && order !== 'first')  handlePrev();
     }
 
     return (
@@ -38,7 +41,12 @@ function Product(props) {
                     onTouchStart={handleTouchStart}
                     onTouchEnd={handleTouchEnd}
                     >
-                    <img className="robot__image" src={product?.link} alt="product image"/>
+                       {loading && <img className="robot__image robot__image-spinner" />}
+                        <img 
+                            className={`robot__image ${loading && 'robot__image_hidden'}`}
+                            src={product?.link} alt="product image"
+                            onLoad={() => setLoading(false)}
+                        /> 
                     <div className="robot__wrapper-info">
                         <h2>{product?.name}</h2>
                         <p><span>Max payload: </span>{product?.info.payload}</p>

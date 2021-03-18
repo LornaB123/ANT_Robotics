@@ -15,11 +15,12 @@
     margin: 0;
 }
 
-.gallery div {
+.gallery__container {
     position: relative;
     height: 50vw;
     margin: 40px auto 26px;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.04);
+    z-index: 0;
 }
 
 .gallery img {
@@ -29,6 +30,7 @@
     object-position: center;
     border-radius: 6px;
     overflow: hidden;
+    user-select: none;
 }
 
 .gallery p {
@@ -62,7 +64,7 @@
         font-size: 34px;
         line-height: 43px;
     }
-    .gallery div {
+    .gallery__container {
         height: calc(320/768*100vw);
         max-height: 320px;
         max-width: 660px;
