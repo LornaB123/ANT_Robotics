@@ -114,5 +114,31 @@
             "title": "Incompatible Robots Team-Up",
             "subtitle": "Robots produced by tens of different vendors can collaborate in the same workspace."
         }
+    ],
+    "team": [
+        {
+            "link": "images/member1.png",
+            "title": "Max Antonenko",
+            "subtitle": "CEO",
+            "text": "Ph.D., expert in algorithms and mathematical modelling. Co-founded two tech startups."
+        },
+        {
+            "link": "images/member1.png",
+            "title": "Vladimir Sokolenko",
+            "subtitle": "CTO",
+            "text": "Hardware and robotics guru, 20+ years team lead experience. Co-founded two tech startups."
+        },
+        {
+            "link": "images/member1.png",
+            "title": "Alexander Sambuk",
+            "subtitle": "CBDO",
+            "text": "Entrepreneur and top-notch operational lead with a background in corporate business and startups."
+        },
+        {
+            "link": "images/member1.png",
+            "title": "Ilya Shimchik",
+            "subtitle": "Advisor, AI and Computer Vision",
+            "text": "Computer Vision and AI guru, MS Software Engineering (CMU). Head of Acronis SIT Autonomous Team, Roborace."
+        }
     ]
 }
