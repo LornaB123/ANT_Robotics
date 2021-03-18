@@ -30,6 +30,11 @@
     cursor: pointer;
 }
 
+.callout button:hover {
+    box-shadow: 0 0 2px 2px rgb(255, 186, 37);
+    filter: grayscale(30%);
+}
+
 @media screen and (min-width: 600px) {
     .callout {
         padding: 20px 40px;
