@@ -31,7 +31,7 @@ function Product(props) {
     }
 
     return (
-        <div className="robot">
+        <div className="robot" ref={props.productRef}>
             <div className="robot__container">
                 <div 
                     className="robot__container-image" 

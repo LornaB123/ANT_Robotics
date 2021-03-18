@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import img from '../images/gallery.png'
 
 function Gallery(props) {
-    const { pictures } = props
+    const { pictures, galleryRef } = props
     const [photo, setPhoto] = useState(null)
     const [order,setOrder] = useState('first')
     const [touchStart,setTouchStart] = useState(null)
@@ -31,7 +31,7 @@ function Gallery(props) {
     }
 
     return (
-        <div className="gallery">
+        <div className="gallery" ref={galleryRef}>
             <h2>Gallery</h2>
             <div>
                 <img 

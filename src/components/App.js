@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import NavBar from './NavBar'
 import Banner from './Banner'
 import Product from './Product'
@@ -12,6 +12,12 @@ import data from '../utils/data.json'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
+  const bannerRef = useRef()
+  const productRef = useRef()
+  const benefitsRef = useRef()
+  const galleryRef = useRef()
+  const customerBenefitsRef = useRef()
+  const teamRef = useRef()
 
   function toggle() {
     setIsOpen(!isOpen)
@@ -19,13 +25,37 @@ function App() {
 
   return (
     <div className="page">
-      <NavBar />
-      <Banner />
-      <Product products={data.products} />
-      <Benefits benefits={data.beneifts} />
-      <Gallery pictures={data.pictures} />
-      <CustomerBenefit customerBenefits={data.customerBenefits} />
-      <Team team={data.team} />
+      <NavBar 
+        bannerRef={bannerRef} 
+        productRef={productRef}
+        benefitsRef={benefitsRef}
+        galleryRef={galleryRef}
+        customerBenefitsRef={customerBenefitsRef}
+        teamRef={teamRef}
+        />
+      <Banner 
+        bannerRef={bannerRef} 
+        />
+      <Product 
+        productRef={productRef} 
+        products={data.products} 
+        />
+      <Benefits 
+        benefitsRef={benefitsRef} 
+        benefits={data.beneifts} 
+        />
+      <Gallery 
+        galleryRef={galleryRef} 
+        pictures={data.pictures} 
+        />
+      <CustomerBenefit 
+        customerBenefitsRef={customerBenefitsRef}
+        customerBenefits={data.customerBenefits} 
+        />
+      <Team 
+        teamRef={teamRef} 
+        team={data.team} 
+        />
       <Callout toggle={toggle} />
       <Popup isOpen={isOpen} toggle={toggle} />
     </div>

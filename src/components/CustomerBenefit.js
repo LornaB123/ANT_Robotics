@@ -1,14 +1,14 @@
 import customer from '../images/customer1.png'
 
 function CustomerBenefit(props) {
-    const { customerBenefits } = props
+    const { customerBenefits, customerBenefitsRef } = props
 
     function createMarkup(markup) {
         return {__html: markup};
       }
 
     return (
-        <div className="customer">
+        <div className="customer" ref={customerBenefitsRef}>
             <h2>Customers benefit despite of the automation level</h2>
             <div className="customer__grid">
                 {

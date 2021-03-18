@@ -1,8 +1,8 @@
 function Benefits(props) {
-  const { benefits } = props
+  const { benefits, benefitsRef } = props
 
   return (
-    <div className="benefits">
+    <div className="benefits" ref={benefitsRef}>
         <h2 className="benefits__title"> Benefits </h2>
         <div className="benefits__columns">
               {

@@ -1,8 +1,8 @@
 function Team(props) {
-    const { team } = props
+    const { team, teamRef } = props
 
     return (
-        <div className="team">
+        <div className="team" ref={teamRef}>
             <h2>Team</h2>
             <div className="team__grid">
                 {

@@ -1,6 +1,6 @@
-function Banner() {
+function Banner(props) {
     return (
-      <header className="banner">
+      <header className="banner" ref={props.bannerRef} >
           <div className="banner__column-1">
               <div />
               <div />
