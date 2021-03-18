@@ -1,0 +1,20 @@
+.contacts__title{
+    padding-top: 50px;
+    margin: 0 12px 40px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+@media screen and (min-width: 600px){
+    .contacts__title{
+        padding-top: 110px;
+        margin: 0 40px 50px;
+    }
+}
+
+@media screen and (min-width: 1185px) {
+    .contacts__title {
+        margin-left: 100px;
+    }
+}

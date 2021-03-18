@@ -1,0 +1,23 @@
+.contacts__copyright{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    line-height: 19.36px;
+    color: #525252;
+    margin: 32px 12px 0;
+    padding-bottom: 80px;
+}
+
+@media screen and (min-width: 600px){
+    .contacts__copyright {
+        margin-left: 40px;
+        padding-bottom: 120px;
+    }
+}
+
+@media screen and (min-width: 1185px) {
+    .contacts__copyright {
+        margin-left: 100px;
+        padding-bottom: 110px;
+    }
+}
