@@ -6,8 +6,8 @@ function Team(props) {
             <h2>Team</h2>
             <div className="team__grid">
                 {
-                    team.map(t => (
-                        <div className="team__card">
+                    team.map((t,i) => (
+                        <div className="team__card" key={i}>
                             <div className="team__image">
                                 <img src={ t.link } alt="member image"/>
                             </div>
