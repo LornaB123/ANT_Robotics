@@ -1,0 +1,6 @@
+@import url('./__list_item/contacts__list_item.css');
+
+.contacts__list{
+    list-style: none;
+    padding: 0;
+}
