@@ -1,20 +1,18 @@
-@import url('./__list/contacts__list.css');
-@import url('./__linkedInLink/contacts__linkedInLink.css');
-@import url('./__title/contacts__title.css');
-@import url('./__map/contacts__map.css');
-@import url('./__copyright/contacts__copyright.css');
+@import url("./__title/contacts__title.css");
+@import url("./__address/contacts__address.css");
+@import url("./__phone/contacts__phone.css");
+@import url("./__container/contacts__container.css");
+@import url("./__email/contacts__email.css");
+@import url("./__linkedin/contacts__linkedin.css");
+@import url("./__copyright/contacts__copyright.css");   
+@import url("./__map/contacts__map.css");
+@import url("./__map-iframe/contacts__map-iframe.css");
 
 .contacts{
-    min-width: 304px;
-    margin: 0 auto;
-    background-color: #F9F9F9;
+    background: #F9F9F9;
     border-radius: 14px;
+    
 }
 
-@media screen and (min-width: 1185px) {
-    .contacts {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-column-gap: 7px;
-    }
-}
+
+

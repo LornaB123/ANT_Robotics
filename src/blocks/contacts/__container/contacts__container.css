@@ -1,0 +1,25 @@
+.contacts__container{
+    position: relative;
+    width: 1260px;
+    height: 650px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 7px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contacts__container {
+        width: 748px;
+        height: 984px;
+        grid-template-columns: none;        
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    .contacts__container{
+        width: 304px;
+        height: 814px;
+        grid-template-columns: none; 
+    }
+}

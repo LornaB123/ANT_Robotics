@@ -1,27 +1,28 @@
-.contacts__copyright{
+.contacts__phone{
     position: relative;
     width: 420px;
     height: 19px;
+    margin:12px auto auto 100px;
+
     font-family: Inter;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.04em;
-    margin:-69px auto auto 100px;
-    color: #525252;
+    color: #000000;
 }
 
 @media screen and (max-width: 1000px) {
-    .contacts__copyright{
-        margin:21px auto auto 40px;
+    .contacts__phone {
+        margin-left:40px;        
     }
-}
+} 
 
 @media screen and (max-width: 500px) {
-    .contacts__copyright{
+    .contacts__phone{
         width: 280px;
         height: 19px;
-        margin:-16px auto auto 12px;
+        margin-left:12px;
     }
 }
