@@ -2,7 +2,7 @@
     position: relative;
     max-width: 420px;
     max-height: 43px;
-    margin:50px auto auto 100px;
+    margin:110px auto auto 100px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1000px) {
     .contacts__title {
-        margin: 110px auto auto 40px;        
+        margin: 50px auto auto 40px;        
     }
 } 
 

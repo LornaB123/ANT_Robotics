@@ -11,12 +11,20 @@
 
 @media screen and (max-width: 1000px) {
     .contacts__map{
-        margin:44px auto auto auto;
+        margin:44px auto auto auto; 
+      
     }
 }
 
 @media screen and (max-width: 500px){
     .contacts__map{
-        margin:14px auto auto auto;
+        /* margin:14px auto auto auto; */
+        display:block;
+        position: absolute;
+        left: 50%;
+        top:267px;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+        border:0.1px solid red;
     } 
 }
