@@ -1,5 +1,5 @@
 .contacts__linkedin{    
-    position:relative;
+    /* position:relative;
     width: 420px;
     height: 19px;
     margin:12px auto auto 100px;
@@ -11,10 +11,18 @@
     line-height: 19px;
     letter-spacing: -0.04em;
     text-decoration-line: underline;
-    color: #000000;    
+    color: #000000;     */
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 0;
+    margin-top: 12px;
+    display: block;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     .contacts__linkedin {
         margin-left:40px;        
     }
@@ -24,4 +32,4 @@
     .contacts__linkedin{
         margin-left:12px;
     }
-}
+} */

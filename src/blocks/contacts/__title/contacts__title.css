@@ -1,8 +1,10 @@
 .contacts__title{
-    position: relative;
-    max-width: 420px;
-    max-height: 43px;
-    margin:110px auto auto 100px;
+    /* position: relative; */
+    /* max-width: 420px; */
+    /* max-height: 43px; */
+    /* margin:110px auto auto 100px; */
+    margin: 0;
+    margin-bottom: 50px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -11,7 +13,15 @@
     color: #000000;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+    .contacts__title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+}
+
+/* @media screen and (max-width: 1000px) {
     .contacts__title {
         margin: 50px auto auto 40px;        
     }
@@ -23,5 +33,5 @@
         font-size: 28px;  
         line-height: 32px;     
     }
-} 
+}  */
 

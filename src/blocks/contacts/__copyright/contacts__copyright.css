@@ -1,5 +1,5 @@
 .contacts__copyright{
-    position: relative;
+    /* position: relative;
     width: 420px;
     height: 19px;
     font-family: Inter;
@@ -8,20 +8,40 @@
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.04em;
-    margin:-69px auto auto 100px;
+    margin:-69px auto auto 100px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
     color: #525252;
+    margin: 0;
+    margin-top: 206px;
 }
 
-@media screen and (max-width: 1000px) {
-    .contacts__copyright{
-        margin:21px auto auto 40px;
+@media screen and (max-width: 1024px) {
+    .contacts__copyright {
+        position: absolute;
+        top: 100%;
+        margin-top: 40px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    .contacts__copyright {
+        margin-top: 32px;
+    }
+}
+
+/* @media screen and (max-width: 1000px) {
+    .contacts__copyright{
+        margin:21px auto auto 40px;
+    }
+} */
+
+/* @media screen and (max-width: 500px) {
     .contacts__copyright{
         width: 280px;
         height: 19px;
         margin:715px auto auto 12px;
     }
-}
+} */
