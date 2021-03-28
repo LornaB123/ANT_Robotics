@@ -11,7 +11,7 @@ function Contacts(props) {
                         Phone: <span className="contacts__text-reg">+1 (650) 209-0-269</span>
                     </p>
                     <p className="contacts__text">
-                        Email: <span className="contacts__text-reg">info@antrobotics.tech</span>
+                        Email: <a href="mailto:info@antrobotics.tech" className="contacts__text-reg">info@antrobotics.tech</a>
                     </p>
                     <a 
                         href="https://www.linkedin.com/company/antrobotics" 
