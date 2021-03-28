@@ -4,21 +4,3 @@
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
     border-radius: 6px;
 }
-
-/* @media screen and (max-width: 1000px) {
-    .contacts__map-iframe{
-        width: 668px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .contacts__map-iframe{
-        width: 280px;
-        height: 370px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-    }
-} */

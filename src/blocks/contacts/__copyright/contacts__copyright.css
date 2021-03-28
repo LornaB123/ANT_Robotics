@@ -1,14 +1,4 @@
 .contacts__copyright{
-    /* position: relative;
-    width: 420px;
-    height: 19px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: -0.04em;
-    margin:-69px auto auto 100px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -31,17 +21,3 @@
         margin-top: 32px;
     }
 }
-
-/* @media screen and (max-width: 1000px) {
-    .contacts__copyright{
-        margin:21px auto auto 40px;
-    }
-} */
-
-/* @media screen and (max-width: 500px) {
-    .contacts__copyright{
-        width: 280px;
-        height: 19px;
-        margin:715px auto auto 12px;
-    }
-} */
