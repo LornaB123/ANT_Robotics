@@ -2,6 +2,7 @@
     padding: 50px 12px 60px;
     background: #F9F9F9;
     border-radius: 14px;
+    margin: 8px auto;
 }
 
 .callout h2 {
@@ -38,6 +39,7 @@
 @media screen and (min-width: 600px) {
     .callout {
         padding: 20px 40px;
+        margin: 10px auto;
     }
     .callout div {
         display: flex;
