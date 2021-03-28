@@ -1,6 +1,6 @@
-function Contacts() {
+function Contacts(props) {
     return (      
-        <div className="contacts">
+        <div className="contacts" ref={props.contactRef}>
             <div className="contacts__container">
                 <div>
                     <h2 className="contacts__title">Contacts</h2>

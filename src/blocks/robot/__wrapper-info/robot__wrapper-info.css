@@ -25,6 +25,7 @@
 }
 
 .robot__wrapper-info button {
+    all: unset;
     color: white;
     background-color: black;
     text-align: center;
@@ -36,6 +37,7 @@
     height: 26px;
     display: block;
     margin: 32px auto 36px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 600px) {
