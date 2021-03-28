@@ -65,8 +65,9 @@
   width: 26px;
   height: 26px;
   background-color: #FAA805;
-  left: 0;
+  left: 30PX;
   top: -25%;
+  transform: rotate(45deg);
   /* animation: anim-two 2s linear infinite alternate-reverse; */
 }
 
@@ -107,7 +108,7 @@
   background-color: #FAA805;
   left: 55%;
   top: 10%;
-  transform: rotateX(45deg);
+  transform: rotateX(-40deg) rotateZ(45deg);
   /* animation: anim-three 2s linear infinite alternate; */
 }
 

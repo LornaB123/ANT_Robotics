@@ -59,8 +59,8 @@
     height: 20px;
     background-color: #FAA805;
     left: var(--val);
-    top: 0;
-    transform: rotateX(45deg);
+    top: 20px;
+    transform: rotateX(0deg) rotateZ(180deg) rotateY(15deg);
     /* animation: anim-2 2s linear infinite alternate; */
 }
   
@@ -104,7 +104,7 @@
     left: 0px;
     bottom: 0px;
     transform-origin: left;
-    animation: anim-3 2s linear infinite alternate;
+    animation: anim-3 4s linear infinite alternate;
 }
   
 @keyframes anim-3 {

@@ -36,11 +36,11 @@
     background: #FBBC05;
     margin-left: 5px;
     transform-origin: center;
-    animation: anim 5s linear infinite;
+    animation: anim 1s linear infinite;
 }
 
 @keyframes anim {
-    20% {
+    /* 20% {
         transform: rotate(720deg);
         left: 100%;
     }
@@ -59,15 +59,15 @@
     100% {
         transform: rotate(20000deg) scale(1);
         border-radius: 0;
-    }
-    /* 50% {
+    } */
+    50% {
         transform: rotate(180deg) scale(2);
         left: 220%;
     }
     100% {
         transform: rotate(360deg) scale(1);
         border-radius: 0;
-    } */
+    }
 }
 
 @media screen and (max-width: 700px) {
