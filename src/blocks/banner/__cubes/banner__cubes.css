@@ -36,18 +36,38 @@
     background: #FBBC05;
     margin-left: 5px;
     transform-origin: center;
-    animation: anim 2s linear infinite;
+    animation: anim 5s linear infinite;
 }
 
 @keyframes anim {
+    20% {
+        transform: rotate(720deg);
+        left: 100%;
+    }
+    40% {
+        transform: translateY(5px) rotate(24500deg) scale(2);
+        left: 2250%;
+    }
     50% {
+        transform: translateY(35px) rotate(5000deg) scale(1);
+        left: 2250%;
+    }
+    60% {
+        transform: translateY(5px)rotate(7500deg) scale(2);
+        left: 2250%;
+    }
+    100% {
+        transform: rotate(20000deg) scale(1);
+        border-radius: 0;
+    }
+    /* 50% {
         transform: rotate(180deg) scale(2);
         left: 220%;
     }
     100% {
         transform: rotate(360deg) scale(1);
         border-radius: 0;
-    }
+    } */
 }
 
 @media screen and (max-width: 700px) {

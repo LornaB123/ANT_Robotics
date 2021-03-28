@@ -24,7 +24,7 @@
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%) rotateX(50deg);
-    animation: anim-1 2s linear infinite;
+    animation: anim-1 6s linear infinite;
 }
   
 @keyframes anim-1 {
@@ -61,7 +61,7 @@
     left: var(--val);
     top: 0;
     transform: rotateX(45deg);
-    animation: anim-2 2s linear infinite alternate;
+    /* animation: anim-2 2s linear infinite alternate; */
 }
   
 @keyframes anim-2 {
